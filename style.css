@@ -1,0 +1,171 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR EDIT */
+
+nav {
+    font-family: monospace;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    background-color: black;
+}
+
+nav ul li {
+    color: white;
+    padding: 11px 13px;
+    margin: 2px 3px;
+    font-size: 14px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: aliceblue;
+}
+
+.songlist h1{
+    font-family: 'Concert One', cursive;
+    color: rgb(255, 255, 255);
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.logo img {
+    /* border: 2px solid yellow; */
+    height: 30px;
+}
+
+/* CONTAINER edit Here */
+
+.container {
+    display: flex;
+    margin: 22px auto;
+    color: white;
+    min-height: 70vh;
+    width: 63%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 24px ;
+    background-color: rgb(0, 0, 0);
+    font-family: monospace;
+    background: url('bg5.jpg');
+    opacity: 3;
+    box-shadow: 10px 10px 10px #dbdfe1;
+}
+
+/* BOTTOM CLASS EDIT */
+
+.bottom {
+    /* border: 2px solid rgb(255, 12, 12); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    height: 130px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    bottom: 0;
+
+}
+
+/* ICONS EDIT HERE */
+
+.icons {
+    /* border: 2px solid white; */
+    margin: 13px 5px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+
+/* BOTTOM UNDER PRESENTS INPUT ID */
+
+#myProgressbar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+/* SONGITEMS CSS HERE */
+
+.songitems{
+    display: flex;
+    background-color: white;
+    color: rgb(4, 0, 255);
+    /* width: 100%; */
+    border: 2px solid rgb(0, 0, 0);
+    height: 40px;
+    margin-top: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.songitems img{
+    width: 40px;
+    height: 36px;
+    margin: 0 23px;
+    border-radius: 6px;
+    
+}
+.duration{
+    /* border: 2px solid red; */
+    padding: 5px 17px;
+}
+
+.duration i{
+    /* border: 2px solid red; */
+    cursor: pointer;
+    padding: 3px 9px;
+}
+
+/* .duration:hover{
+    background-color: black;
+    color: wheat;
+} */
+
+.songitemcontainer{
+    /* border: 2px solid yellow; */
+    margin-top: 36px;
+}
+
+/* SONGINFORMATION HERE EDIT */
+
+.songinformation{
+    /* border: 2px solid blueviolet; */
+    position: absolute;
+    left: 130px;
+}
+
+.songinformation img{
+    /* border: 2px solid red; */
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+#next:hover{
+    color: red;
+}
+#previous:hover{
+    color: blue;
+}
+#masterPlay:hover{
+    color: yellow;
+}
+.songitemplay {
+    margin: 1px;
+}
